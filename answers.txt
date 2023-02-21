@@ -1,0 +1,4 @@
+What is the difference between a merge and a rebase?
+
+Merging allows you to link the main branch to a new feature without changing any of the previous branches. This is a safe way to add new features since you preserve all the previous branches. On the other hand, rebasing changes the entire main branch to lead to the feature. 
+This makes a much cleaner diagram for the project by eliminating extra branches. However, this is less safe because you lose the extra branch.
